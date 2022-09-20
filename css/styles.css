@@ -1,8 +1,33 @@
+@font-face {
+	font-family: "Computer Modern Serif";
+	src: url("../fonts/cmu_serif.ttf");
+}
+
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-	font-family: Garamond, serif;
+	font-family: "Computer Modern Serif", monospace;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-sections {
+	list-style: none;
+}
+
+.nav-sections li {
+	display: inline-block;
+}
+
+#home-background-image {
+	width: 100vw;
+	height: 100vh;
 }
