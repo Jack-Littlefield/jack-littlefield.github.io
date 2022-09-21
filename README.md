@@ -3,4 +3,4 @@
 Todo List:
 * Add Favicon
 * Fix Navbar Layout
-* Replace Background Image, Better Resizing
+* Replace Background Image
